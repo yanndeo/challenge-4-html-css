@@ -353,17 +353,26 @@ header {
         display: inline-block;
         color: #DAB072; }
   .main-content h1 {
-    font-size: 22px;
+    font-size: 1.375rem;
     text-transform: capitalize;
     line-height: 1.59091;
     color: #212F56; }
-  .main-content .content {
-    border: 1px solid red; }
 
 aside > div {
   margin-top: 20px; }
   aside > div:first-child {
     margin-top: 0; }
+
+.bloc img {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1); }
+  .bloc img:hover {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8); }
 
 .bloc .title {
   color: #212F56;
@@ -404,14 +413,18 @@ aside > div {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid green; }
+  border: 1px solid #e2e2e2; }
   .presentation .text,
   .resume .text {
-    font-size: 17px; }
+    font-size: 1.0625rem; }
   .presentation .more,
   .resume .more {
     text-decoration: underline;
@@ -421,7 +434,10 @@ aside > div {
     width: 60%; }
   .presentation .secondary-bloc,
   .resume .secondary-bloc {
-    width: 40%; }
+    width: 37%; }
+    .presentation .secondary-bloc img,
+    .resume .secondary-bloc img {
+      display: block; }
 
 .featured-offers-grid {
   display: grid;
