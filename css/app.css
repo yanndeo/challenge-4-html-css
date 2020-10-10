@@ -251,7 +251,7 @@ ul {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  padding-right: 1.25rem;
+  padding-left: 1.25rem;
   font-size: 0.875rem; }
   .nav-link::after {
     content: '';
@@ -269,6 +269,8 @@ ul {
       width: calc(100% - 4px);
       margin: 0 auto;
       background: #DAB072; }
+  .nav-link:last-child {
+    padding: 0; }
 
 header {
   margin-bottom: 50px; }
@@ -574,7 +576,8 @@ input[type=submit] {
 .sidebar-right .section-title {
   font-size: 1rem; }
 
-.sidebar-right > div, .sidebar-right section {
+.sidebar-right > div,
+.sidebar-right section {
   margin-bottom: 30px; }
 
 footer {
