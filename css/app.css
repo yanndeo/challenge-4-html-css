@@ -496,12 +496,14 @@ aside > div {
       .item .title .delete-item:hover {
         color: red; }
 
-.form {
+.form,
+.categories {
   border: 1px solid #e2e2e2;
   padding: 10px;
   color: #212F56; }
 
 .form-offer {
+  margin-top: 20px;
   padding: 0;
   color: #212F56; }
   .form-offer .input-group {
@@ -538,6 +540,20 @@ input[type=submit] {
   border: 1 solid #DAB072; }
   .submit:hover {
     background: rgba(218, 176, 114, 0.7) !important; }
+
+.cat-list {
+  margin-top: 20px; }
+
+.cat-list-item {
+  padding: 0.375rem 0.9375rem;
+  border: 1px solid #e2e2e2;
+  margin: 3px 0; }
+  .cat-list-item:last-child {
+    padding: 0.25rem 0.9375rem; }
+  .cat-list-item a {
+    color: inherit; }
+  .cat-list-item:hover {
+    color: #DAB072; }
 
 .search-bar .input-group {
   border-radius: 4.375rem; }
