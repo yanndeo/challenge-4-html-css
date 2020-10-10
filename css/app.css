@@ -459,6 +459,16 @@ aside > div {
 .item {
   border: 1px solid #e2e2e2;
   margin: 10px 0; }
+  .item:hover {
+    background: -webkit-radial-gradient(whitesmoke, transparent);
+    background: radial-gradient(whitesmoke, transparent); }
+
+.form-offer {
+  border: 1px solid #e2e2e2;
+  padding: 0; }
+  .form-offer .input-group {
+    border: 1px solid #212F56;
+    margin-top: 10px; }
 
 .search-bar .input-group {
   border-radius: 4.375rem; }
@@ -477,7 +487,6 @@ aside > div {
 /* ---------------- aside SECTION Page 1---------- */
 /* -------------------------------------- */
 .page-2 {
-  padding: 0 8px;
   border: 1px solid #212F56; }
 
 .call-to-action-1 {
