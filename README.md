@@ -1,5 +1,6 @@
 # Project
-Build template without framework .using Html/css and js.We used ES6 javascript "module" to manipulate and to have dynamic data.
+Build template without framework .using Html/css and js.
+- We used CSS Grid , Flex blox, and ES6 javascript "module" to manipulate and to have dynamic data.
 
 
 
