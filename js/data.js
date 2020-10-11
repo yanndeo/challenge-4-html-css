@@ -218,6 +218,8 @@ export const jobs = [
   }
 ];
 
+//////////////////////////////////////////
+
 export const categories = [
   { id: "1", name: "Achat" },
   { id: "2", name: "Métier du BTP" },

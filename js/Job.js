@@ -1,5 +1,5 @@
 class Job {
-    
+
   constructor(title, compagnie, description, validated_at, category, city) {
     this.title = title;
     this.companie = compagnie;
@@ -13,6 +13,8 @@ class Job {
     return new Date().toISOString().slice(0, 10);
   }
 }
+
+export default Job;
 
 let job1 = new Job(
   "Dev Symfony 4",
